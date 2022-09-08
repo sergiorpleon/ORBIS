@@ -1,0 +1,11 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.c text
+*.h text
+
+*.sln text eol=crf
+
+*.png binary
+*.jpg binary
+*.mp4 binary
